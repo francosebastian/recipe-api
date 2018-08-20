@@ -1,17 +1,17 @@
-package com.cookingtime.dto;
+package com.cookingtime.domain;
 
 import lombok.Data;
 
-
 /**
- * Dto class for ingredient
+ * @author Franco Sebastian
+ * Domain class for ingredient
  */
 @Data
 public class Ingredient {
 
     private String name;
 
-    private Quantity quantity;
+    private Double quantity;
 
     private MeasureType measureType;
 

@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * @author Franco Sebastian
-	The Cooking Time Rest API V1.0
+ * The Cooking Time Rest API V1.0
  */
 @SpringBootApplication
 public class ApiApplication {

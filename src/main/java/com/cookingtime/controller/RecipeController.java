@@ -1,6 +1,6 @@
 package com.cookingtime.controller;
 
-import com.cookingtime.dto.Recipe;
+import com.cookingtime.domain.Recipe;
 import com.cookingtime.service.RecipeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
