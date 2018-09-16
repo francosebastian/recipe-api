@@ -17,5 +17,7 @@ public class Recipe {
     private List<Ingredient> ingredients;
     private List<Step> steps;
     private String imgUrl;
+    private String author;
+    private String category;
 
 }
