@@ -16,7 +16,13 @@ public class RecipeServiceImpl implements RecipeService {
     @Autowired
     RecipeRepository recipeRepository;
 
+    @Override
     public Iterable<Recipe> findAll(){
         return recipeRepository.findAll();
+    }
+
+    @Override
+    public Recipe create(Recipe recipe) {
+        return recipeRepository.insert(recipe);
     }
 }

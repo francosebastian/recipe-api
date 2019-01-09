@@ -1,7 +1,7 @@
 package com.cookingtime.repository;
 
 import com.cookingtime.domain.Recipe;
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -9,7 +9,6 @@ import org.springframework.stereotype.Repository;
  * Repository for recipes
  */
 @Repository
-public interface RecipeRepository extends CrudRepository<Recipe, Long> {
-
-
+public interface RecipeRepository extends MongoRepository<Recipe, Long> {
+    
 }

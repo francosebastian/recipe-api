@@ -10,4 +10,5 @@ public interface RecipeService {
 
   Iterable<Recipe> findAll();
 
+  Recipe create(Recipe recipe);
 }
